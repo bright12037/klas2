@@ -2,7 +2,6 @@
 'use client'
 import React from 'react'
 import Image from 'next/image'
-import Signinpage from '../SigninComp/Signinpage'
 import slide1 from './images/slide-1.svg'
 import './signup.css'
 import { useState } from 'react'
