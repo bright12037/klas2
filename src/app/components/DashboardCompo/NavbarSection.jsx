@@ -111,13 +111,13 @@ const NavbarSection = () => {
     <div className='font-dmsans'> 
       <nav className='hidden lg:mx-8 lg:flex lg:text-white lg:font-bold lg:text-sm lg:my-8'>
       <Link href="http://localhost:3000/"><div className='flex items-center cursor-pointer'>
-            <Image className='h-16 w-16' src={logo} />
+            <Image className='h-16 w-16' src={logo} alt='d' />
             <h1 className='text-blue-700 text-3xl'>Klas</h1>
           </div></Link>
           <div className='ml-auto flex items-center gap-4'>
             <p className='text-blue-700 boder-solid border py-3 px-8 rounded-lg border-blue-700 cursor-pointer'>Try Pro</p>
             <Link href="./createsection"> <p className='px-10 py-3  bg-gradient-to-l from-purple-600 via-blue-700 to-blue-700 rounded-lg font-sans cursor-pointer'>Create a content</p></Link>
-            <Image className='rounded-full h-10 w-10 lg:h-12 lg:w-12 cursor-pointer' src={profile} />
+            <Image className='rounded-full h-10 w-10 lg:h-12 lg:w-12 cursor-pointer' src={profile} alt='d' />
           </div>
       </nav>
 
@@ -221,7 +221,7 @@ const NavbarSection = () => {
                   </div>
 
                   <div className='flex items-center flex-col justify-center py-10'>
-                              <Image src={record} />
+                              <Image src={record} alt='c' />
                               <p className='text-lg text-gray-500 font-semibold'>No recordings yet</p>
                   </div> 
 
@@ -241,7 +241,7 @@ const NavbarSection = () => {
                           </div> 
 
                           <div className='flex items-center flex-col justify-center py-10'>
-                              <Image src={resource} />
+                              <Image src={resource} alt='s'/>
                               <p className='text-lg text-gray-500 font-semibold'>No resources yet</p>
                           </div>        
              </section>: ''}

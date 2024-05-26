@@ -39,7 +39,7 @@ const Signup = () => {
     <div>
         <div className='flex fixed h-full'>
             <div className='px-24 py-3 bg-blue-800'>
-                <Image src={slide1} alt='' />
+                <Image src={slide1} alt='x' />
 
                 <span className='flex-column justify-center text-center align-center'>
                     <h1 className='text-white text-3xl'>Deliver an unforgettable experience</h1>

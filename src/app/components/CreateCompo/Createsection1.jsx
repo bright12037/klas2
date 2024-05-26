@@ -19,14 +19,14 @@ const Createsection1 = () => {
         </div>
            <div className=' flex justify-center text-center  gap-8 my-10 mx-32'>
                 <div className='grid justify-center w-2/4 h-2/4 shadow-md border-2 border-zinc-300 bg-white rounded-lg px-4 py-6'>
-                    <div className='bg-blue-800 flex justify-center items-center rounded-full p-2 mb-4'><Image src={Image1} alt='' width={60}/></div>
+                    <div className='bg-blue-800 flex justify-center items-center rounded-full p-2 mb-4'><Image src={Image1} alt='g' width={60}/></div>
                     <h3 className='text-black mb-2'>Recorded courses</h3>
                     <p className='text-slate-400 mb-8 '>Upload and sell your courses</p>
                     <button className='bg-white hover:bg-blue-700 hover:text-white text-blue-600 py-2 px-10  text-bold rounded-lg border-2 border-blue-600'>Start</button>
                 </div> 
 
                 <div className='grid justify-center w-2/4 shadow-md border-2 border-zinc-300  bg-white rounded-lg px-4 py-6'>
-                    <div className='bg-blue-800 flex justify-center rounded-full p-2 mb-4'><Image src={Image2} alt='' width={60}/></div>
+                    <div className='bg-blue-800 flex justify-center rounded-full p-2 mb-4'><Image src={Image2} alt='f' width={60}/></div>
                     <h3 className='text-black mb-2'>Ebooks</h3>
                     <p className='text-slate-400 mb-8  '>Sell interactive ebooks  </p>
                     <button className='bg-white hover:bg-blue-700 hover:text-white  text-blue-600  py-2 px-10   text-bold rounded-lg border-2 border-blue-600 '>Start</button>
@@ -34,7 +34,7 @@ const Createsection1 = () => {
 
 
                 <div className='grid justify-center w-2/4 shadow-md border-2 border-zinc-300  bg-white rounded-lg px-4 py-6'>
-                    <div className=' bg-blue-800 flex justify-center rounded-full p-2 mb-4'><Image src={Image3} alt='' width={60}/></div>
+                    <div className=' bg-blue-800 flex justify-center rounded-full p-2 mb-4'><Image src={Image3} alt='f' width={60}/></div>
                     <h3 className='text-black mb-2 '> Live classes</h3>
                     <p className='text-slate-400 mb-8 '>Host immersive & fun classes</p>
                     <button className='bg-white  hover:bg-blue-700 hover:text-white text-blue-600  py-2 px-10  text-bold rounded-lg border-2 border-blue-600 '>Start</button>

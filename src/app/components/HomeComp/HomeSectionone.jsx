@@ -64,7 +64,7 @@ const HomeSectionone = () => {
               </div>  
               </div>
               <div className='w-2/4 h-auto mt-20 ml-10 mb-5'>
-                <Image src={heroimg} alt=''  className='images'/>
+                <Image src={heroimg} alt='d'  className='images'/>
               </div>
 
             </div>
@@ -99,20 +99,20 @@ const HomeSectionone = () => {
 
           <div className='flex gap-5'>
             <div className='w-1/3 h-auto mt-20 ml-14 mb-5 bg-white rounded-lg shadow-lg transform transition-transform duration-500 ease-in-out hover:scale-95'>
-             <Image src={expimg1} alt=''  className='images'/>
+             <Image src={expimg1} alt='d'  className='images'/>
              <h4 className='text-2xl font-medium py-5 px-5'>Live  classes</h4>
              <p className='text-lg pl-5 pb-10 text-neutral-900'> Our immersive  class venue  gives you the <br />
                power  to share  your knowledge.</p>
             </div>
 
             <div className='w-1/3 h-auto mt-20 ml-0 mb-5 bg-white rounded-lg shadow-lg transform transition-transform duration-500 ease-in-out hover:scale-95'>
-             <Image src={expimg2} alt=''  className='images'/>
+             <Image src={expimg2} alt='f'  className='images'/>
              <h4 className='text-2xl font-medium py-5 px-5'>Online courses</h4>
              <p className='text-lg pl-5 pb-10 text-neutral-900'>Run your knowledge business with online<br /> courses for Students</p>
             </div>
     
             <div className='w-1/3 h-auto mt-20 mr-14 mb-5 bg-white rounded-lg shadow-lg transform transition-transform duration-500 ease-in-out hover:scale-95'>
-             <Image src={expimg3} alt=''  className='images'/>
+             <Image src={expimg3} alt='d'  className='images'/>
              <h4 className='text-2xl font-medium py-5 px-5'>Ebook</h4>
              <p className='text-lg font- pl-5 pb-10 text-neutral-900'>Reach your students in faster ways. Sell unlimited PDFs & files on klas</p>
             </div>
@@ -132,13 +132,13 @@ const HomeSectionone = () => {
            </div>
 
            <div className='w-2/4 h-auto mt-20 ml-10 mb-5'>
-             <Image src={toolsimg} alt=''  className='images'/>
+             <Image src={toolsimg} alt='e'  className='images'/>
            </div>
          </div>
 
          <div className='flex gap-20'>
            <div className='w-2/4 h-auto mt-20 ml-10 mb-5'>
-             <Image src={playerimg} alt=''  className='images'/>
+             <Image src={playerimg} alt='e'  className='images'/>
            </div>
 
            <div className='pt-44 ml-14'>
@@ -158,7 +158,7 @@ const HomeSectionone = () => {
            </div>
 
            <div className='w-2/4 h-auto mt-20 ml-10 mb-5'>
-             <Image src={readerimg} alt=''  className='images'/>
+             <Image src={readerimg} alt='d'  className='images'/>
            </div>
          </div>
 
@@ -167,7 +167,7 @@ const HomeSectionone = () => {
       <div className='min-h-screen bg-gradient-to-b from-blue-700 to-violet-500 flex flex-col'>
         <div className='flex gap-20 pt-20'>
            <div className='w-2/4 h-auto mt-20 ml-10 mb-5'>
-             <Image src={paymentimg} alt=''  className='images'/>
+             <Image src={paymentimg} alt='d'  className='images'/>
            </div>
 
            <div className='pt-44 ml-14'>
@@ -187,7 +187,7 @@ const HomeSectionone = () => {
            </div>
 
            <div className='w-2/4 h-auto mt-20 ml-10 mb-5'>
-             <Image src={dashboardimg} alt=''  className='images'/>
+             <Image src={dashboardimg} alt='d'  className='images'/>
            </div>
         </div>
       </div>
@@ -200,7 +200,7 @@ const HomeSectionone = () => {
         <div className='flex gap-5 align-center'>
           <div className='w-2/4 h-auto mt-20 ml-14  bg-gray-100 px-8 py-10 rounded-lg'>
             <div className='w-4/4 pb-10'>
-              <Image src={undrawimg1} alt=''  className=' images'/>
+              <Image src={undrawimg1} alt='d'  className=' images'/>
             </div>
             <h4 className='text-lg font-medium'>Students dashboards</h4>
             <p className='text-sm text-gray-500'>A central learning  hub  for your  students track <br /> upcoming  classes, quizzes.</p>
@@ -208,7 +208,7 @@ const HomeSectionone = () => {
 
           <div className='w-2/4 h-auto mt-20  bg-gray-100 px-10 py-10 rounded-lg'>
             <div className='w-3/4 pb-5 ml-8'>
-              <Image src={undrawimg2} alt=''  className=' images'/>
+              <Image src={undrawimg2} alt='d'  className=' images'/>
             </div>
             <h4 className='text-lg font-medium'>Engaging Quizzes</h4>
             <p className='text-sm text-gray-500'>Creating  engaging  quizzes for students, enjoy <br /> automated marking.</p>
@@ -216,7 +216,7 @@ const HomeSectionone = () => {
 
           <div className='w-2/4 h-auto mt-20 mr-14 bg-gray-100 px-8 py-10 rounded-lg'>
             <div className='w-3/4 pb-14 ml-5'>
-              <Image src={undrawimg3} alt=''  className=' images'/>
+              <Image src={undrawimg3} alt='d'  className=' images'/>
             </div>
             <h4 className='text-lg font-medium'>Resources library</h4>
             <p className='text-sm text-gray-500'>Upload supplimentary materials such as videos,<br /> docs, presentation</p>
@@ -226,7 +226,7 @@ const HomeSectionone = () => {
         <div className='flex gap-5 align-center'>
           <div className='w-2/4 h-auto mt-5 ml-14 mb-5 bg-gray-100 px-8 py-10 rounded-lg'>
             <div className='w-3/4 pb-14 ml-8'>
-              <Image src={undrawimg4} alt=''  className=' images'/>
+              <Image src={undrawimg4} alt='f'  className=' images'/>
             </div>
             <h4 className='text-lg font-medium'>Students dashboards</h4>
             <p className='text-sm text-gray-500'>A central learning  hub  for your  students track <br /> upcoming  classes, quizzes.</p>
@@ -234,7 +234,7 @@ const HomeSectionone = () => {
 
           <div className='w-2/4 h-auto mt-5  mb-5 bg-gray-100 px-10 py-10 rounded-lg'>
             <div className='w-3/4 pb-14 ml-10'>
-              <Image src={undrawimg5} alt=''  className=' images'/>
+              <Image src={undrawimg5} alt='f'  className=' images'/>
             </div>
             <h4 className='text-lg font-medium'>Engaging Quizzes</h4>
             <p className='text-sm text-gray-500'>Creating  engaging  quizzes for students, enjoy <br /> automated marking.</p>
@@ -242,7 +242,7 @@ const HomeSectionone = () => {
 
           <div className='w-2/4 h-auto mt-5 mr-14 mb-5 bg-gray-100 px-8 py-10 rounded-lg'>
             <div className='w-2/4 pb-14 ml-10'>
-              <Image src={undrawimg6} alt=''  className=' images'/>
+              <Image src={undrawimg6} alt='f'  className=' images'/>
             </div>
             <h4 className='text-lg font-medium'>Resources library</h4>
             <p className='text-sm text-gray-500'>Upload supplimentary materials such as videos,<br /> docs, presentation</p>
@@ -264,7 +264,7 @@ const HomeSectionone = () => {
 
            <div className='flex gap-4 justify-center items-center'>
               <div className='w-[50px]'>
-                <Image src={personimg} alt=''  className=' images'/>
+                <Image src={personimg} alt='f'  className=' images'/>
               </div>
 
               <div>

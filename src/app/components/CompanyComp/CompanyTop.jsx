@@ -82,7 +82,7 @@ const CompanyTop = () => {
         {/*<Navbar />*/}
         <nav className='flex items-center bg-white pt-4 pb-4 mb-16 align-center text-center rounded-xl shadow-md'>
           <div className='text-blue-600 text-2xl font-bold ml-5'> 
-             <h2 className='flex items-center'><Image src={logo} width={60}/> Klas</h2>
+             <h2 className='flex items-center'><Image alt='j' src={logo} width={60}/> Klas</h2>
           </div>
           <div className='flex ml-auto gap-10 pt-3'>
           <Link href="http://localhost:3000/"><p className='hover:text-blue-700 hover:cursor-pointer'>Home</p></Link>
@@ -206,10 +206,10 @@ const CompanyTop = () => {
             <h1 className='text-5xl mx-44 font-semibold text-center py-24'>As featured in</h1>
 
             <div className='flex items-center gap-12 justify-center'>
-                <Image src={img8} />
-                <Image src={img9} />
-                <Image src={img10} />
-                <Image src={img11} />
+                <Image src={img8} alt='m' />
+                <Image src={img9} alt='f' />
+                <Image src={img10} alt='f' />
+                <Image src={img11} alt='f' />
             </div>
         </div>
 

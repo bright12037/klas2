@@ -12,7 +12,7 @@ const Footer = () => {
     <div className='bg-blue-700'>
       <div className='flex p-10  items-center pb-0'>
         <div className=' cursor-pointer flex py-2 items-center'>
-        <Image src={logo} alt='' width={50}/>
+        <Image src={logo} alt='c' width={50}/>
         <h2 className='text-white text-xl font-extrabold cursor-pointer'>Klas</h2>
         </div>
         <div className='flex ml-auto py-4 gap-10 items-center'>

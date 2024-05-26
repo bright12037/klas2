@@ -10,7 +10,7 @@ const Navbar = () => {
       
       <div className=' p-10  items-center pb-0'>
       <div className='flex py-2 items-center bg-white rounded-lg'>
-       <Image src={logo} alt='' width={70}/>
+       <Image src={logo} alt='d' width={70}/>
       <h2 className='text-blue-700 text-3xl font-extrabold cursor-pointer'>Klas</h2>
       <div className='flex ml-80 gap-8 cursor-pointer'>
             <p className='text-blue-600 hover:text-blue-600'></p>
