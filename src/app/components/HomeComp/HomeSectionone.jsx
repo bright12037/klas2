@@ -37,7 +37,7 @@ const HomeSectionone = () => {
          {/*<Navbar />*/}
          <nav className='flex items-center bg-white py-4 mx-12 my-10 align-center text-center rounded-xl shadow-md'>
           <div className='text-blue-600 text-2xl font-bold ml-5'> 
-          <Link href="http://localhost:3000/"><h2 className='flex items-center'><Image src={logo} width={60}/> Klas</h2></Link>
+          <Link href="http://localhost:3000/"><h2 className='flex items-center'><Image src={logo} width={60} alt='k'/> Klas</h2></Link>
           </div>
           <div className='flex ml-auto gap-10 pt-3'>
           <Link href="http://localhost:3000/"><p className='hover:text-blue-700 hover:cursor-pointer'>Home</p></Link>

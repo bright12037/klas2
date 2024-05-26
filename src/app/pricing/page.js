@@ -14,7 +14,7 @@ const page = () => {
           {/*<Navbar />*/}
         <nav className='flex items-center bg-white pt-4 pb-4 mb-16 align-center text-center rounded-xl shadow-md'>
           <div className='text-blue-600 text-2xl font-bold ml-5'> 
-             <h2 className='flex items-center'><Image src={logo} width={60}/> Klas</h2>
+             <h2 className='flex items-center'><Image src={logo} width={60} alt='n'/> Klas</h2>
           </div>
           <div className='flex ml-auto gap-10 pt-3'>
           <Link href="http://localhost:3000/"><p className='hover:text-blue-700 hover:cursor-pointer'>Home</p></Link>
@@ -80,7 +80,7 @@ const page = () => {
             <div className='ctn-2'>
                 <div className='flex-column gap-3 p-3 justify-center text-center'>
                   <div className='crownctn'>
-                    <Image src={crown} className='crown' alt='' />
+                    <Image src={crown} className='crown' alt='n' />
                     <h1 className='font-bold text-black text-3xl'>Pro</h1>
                   </div>
 
