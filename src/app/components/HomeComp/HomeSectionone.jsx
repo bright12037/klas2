@@ -114,7 +114,7 @@ const HomeSectionone = () => {
             <div className='w-1/3 h-auto mt-20 mr-14 mb-5 bg-white rounded-lg shadow-lg transform transition-transform duration-500 ease-in-out hover:scale-95'>
              <Image src={expimg3} alt='d'  className='images'/>
              <h4 className='text-2xl font-medium py-5 px-5'>Ebook</h4>
-             <p className='text-lg font- pl-5 pb-10 text-neutral-900'>Reach your students in faster ways. Sell unlimited PDFs & files on klas</p>
+             <p className='text-lg font- pl-5 pb-10 text-neutral-900'>Reach your students in faster ways. Sell unlimited PDFs and files on klas</p>
             </div>
           </div>
          </div>
@@ -252,14 +252,14 @@ const HomeSectionone = () => {
 
       <div className='min-h-screen bg-white'>
         <div className='justify-center text-center mt-32 mb-20'>
-          <h2 className='text-5xl font-semibold'>Don't just take our for it...</h2>
+          <h2 className='text-5xl font-semibold'>Dont just take our for it...</h2>
         </div>
         
         <div className='justify-center text-center bg-indigo-100 px-10 py-28 ml-32 mr-32 rounded-lg'>
            <div className='pb-14'>
-             <p className='text-2xl'>“Working with Klas has been one of the spotlights of the year for<br />
+             <p className='text-2xl'>Working with Klas has been one of the spotlights of the year for<br />
               Codenovation. The platform is easy to use, seamless, and has excellent<br />
-               customer service. Thanks for making it easy to teach online.”</p>
+               customer service. Thanks for making it easy to teach online.</p>
            </div>
 
            <div className='flex gap-4 justify-center items-center'>
