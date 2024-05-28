@@ -110,7 +110,7 @@ const NavbarSection = () => {
   return (
     <div className='font-dmsans'> 
       <nav className='hidden lg:mx-8 lg:flex lg:text-white lg:font-bold lg:text-sm lg:my-8'>
-      <Link href="http://localhost:3000/"><div className='flex items-center cursor-pointer'>
+      <Link href="https://klas2.vercel.app/"><div className='flex items-center cursor-pointer'>
             <Image className='h-16 w-16' src={logo} alt='d' />
             <h1 className='text-blue-700 text-3xl'>Klas</h1>
           </div></Link>

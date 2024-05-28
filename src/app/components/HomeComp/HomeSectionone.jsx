@@ -37,7 +37,7 @@ const HomeSectionone = () => {
          {/*<Navbar />*/}
          <nav className='flex items-center bg-white py-4 mx-12 my-10 align-center text-center rounded-xl shadow-md'>
           <div className='text-blue-600 text-2xl font-bold ml-5'> 
-          <Link href="http://localhost:3000/"><h2 className='flex items-center'><Image src={logo} width={60} alt='k'/> Klas</h2></Link>
+          <Link href="https://klas2.vercel.app/"><h2 className='flex items-center'><Image src={logo} width={60} alt='k'/> Klas</h2></Link>
           </div>
           <div className='flex ml-auto gap-10 pt-3'>
           <Link href="http://localhost:3000/"><p className='hover:text-blue-700 hover:cursor-pointer'>Home</p></Link>
@@ -282,34 +282,34 @@ const HomeSectionone = () => {
       </div>
 
       {/*<footer />*/}
-      <div className='bg-blue-700 mt-20'>
-        <div className='flex pt-10'>
-          <div className='ml-24'>
-           <h2 className='text-2xl font-semibold text-white'>Klas</h2>
+        <div className='bg-blue-700 mt-20'>
+          <div className='flex pt-10'>
+            <div className='ml-24'>
+            <h2 className='text-2xl font-semibold text-white'>Klas</h2>
+            </div>
+
+            <div className='flex gap-8 items-center align-center ml-auto mr-28'>
+              < RiInstagramFill className='text-2xl text-white'/>
+              < FaTwitter className='text-2xl text-white'/>
+              < SiLinkedin className='text-xl text-white'/>
+            </div>
           </div>
 
-          <div className='flex gap-8 items-center align-center ml-auto mr-28'>
-            < RiInstagramFill className='text-2xl text-white'/>
-            < FaTwitter className='text-2xl text-white'/>
-            < SiLinkedin className='text-xl text-white'/>
+          <div className='flex gap-5 text-center justify-center align-center pt-20'>
+            <p className='text-white text-sm hover:text-gray-300 hover:cursor-pointer'>Home</p>
+            <Link href="./pricing"> <p className='text-white text-sm hover:text-gray-300 hover:cursor-pointer'>Pricing</p></Link>
+            <p className='text-white text-sm hover:text-gray-300 hover:cursor-pointer'>Company</p>
+            <p className='text-white text-sm hover:text-gray-300 hover:cursor-pointer'>Case Studies</p>
+            <p className='text-white text-sm hover:text-gray-300 hover:cursor-pointer'>Products</p>
+            <p className='text-white text-sm hover:text-gray-300 hover:cursor-pointer'>Terms of Use</p>
+            <p className='text-white text-sm hover:text-gray-300 hover:cursor-pointer'>Privacy Policy</p>
+          </div>
+
+          <div className='flex gap-1 text-center justify-center align-center pt-10 pb-10'>
+            <p className='text-gray-300 text-xs pt-1'><FaRegCopyright  /></p>
+            <p className='text-sm text-gray-300 '> Klas Global, Inc.</p>
           </div>
         </div>
-
-        <div className='flex gap-5 text-center justify-center align-center pt-20'>
-          <p className='text-white text-sm hover:text-gray-300 hover:cursor-pointer'>Home</p>
-           <Link href="./pricing"> <p className='text-white text-sm hover:text-gray-300 hover:cursor-pointer'>Pricing</p></Link>
-          <p className='text-white text-sm hover:text-gray-300 hover:cursor-pointer'>Company</p>
-          <p className='text-white text-sm hover:text-gray-300 hover:cursor-pointer'>Case Studies</p>
-          <p className='text-white text-sm hover:text-gray-300 hover:cursor-pointer'>Products</p>
-          <p className='text-white text-sm hover:text-gray-300 hover:cursor-pointer'>Terms of Use</p>
-          <p className='text-white text-sm hover:text-gray-300 hover:cursor-pointer'>Privacy Policy</p>
-        </div>
-
-        <div className='flex gap-1 text-center justify-center align-center pt-10 pb-10'>
-          <p className='text-gray-300 text-xs pt-1'><FaRegCopyright  /></p>
-          <p className='text-sm text-gray-300 '> Klas Global, Inc.</p>
-        </div>
-      </div>
     </div>
   )
 }

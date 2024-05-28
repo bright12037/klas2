@@ -78,11 +78,12 @@ const CompanyTop = () => {
 
 
   return (
+    <div>
     <div className='font-sans mx-16'>
         {/*<Navbar />*/}
         <nav className='flex items-center bg-white pt-4 pb-4 mb-16 align-center text-center rounded-xl shadow-md'>
           <div className='text-blue-600 text-2xl font-bold ml-5'> 
-             <h2 className='flex items-center'><Image alt='j' src={logo} width={60}/> Klas</h2>
+          <Link href="https://klas2.vercel.app/"> <h2 className='flex items-center'><Image alt='j' src={logo} width={60}/> Klas</h2></Link>
           </div>
           <div className='flex ml-auto gap-10 pt-3'>
           <Link href="http://localhost:3000/"><p className='hover:text-blue-700 hover:cursor-pointer'>Home</p></Link>
@@ -213,7 +214,9 @@ const CompanyTop = () => {
             </div>
         </div>
 
-             {/*<footer />*/}
+      
+    </div>
+    {/*<footer />*/}
       <div className='bg-blue-700 mt-20'>
         <div className='flex pt-10'>
           <div className='ml-24'>
@@ -242,7 +245,8 @@ const CompanyTop = () => {
           <p className='text-sm text-gray-300 '> Klas Global, Inc.</p>
         </div>
       </div>
-    </div>
+
+</div>
   )
 }
 
