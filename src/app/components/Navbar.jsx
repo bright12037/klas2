@@ -1,7 +1,7 @@
 'use client'
 import React from 'react'
 import './Navbar.css'
-import Image from 'next/image';
+import Image from 'next/image'
 import logo from './DashboardCompo/dashimages/klas-logo.svg'
 
 const Navbar = () => {
