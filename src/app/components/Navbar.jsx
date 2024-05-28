@@ -13,7 +13,6 @@ const Navbar = () => {
        <Image src={logo} alt='d' width={70}/>
       <h2 className='text-blue-700 text-3xl font-extrabold cursor-pointer'>Klas</h2>
       <div className='flex ml-80 gap-8 cursor-pointer'>
-            <p className='text-blue-600 hover:text-blue-600'></p>
             <p className='text-blue-600 hover:text-blue-600'>Home</p>
             <p className='text-gray-300 hover:text-blue-600'>Pricing</p>
             <p className='text-gray-300 hover:text-blue-600'>Company</p>
