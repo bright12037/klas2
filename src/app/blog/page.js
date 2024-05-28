@@ -31,7 +31,7 @@ const page = () => {
           <Link href="https://klas2.vercel.app/">  <h2 className='flex items-center'><Image src={logo} width={60}/> Klas</h2></Link>
           </div>
           <div className='flex ml-auto gap-10 pt-3'>
-             <p className='hover:text-blue-700 hover:cursor-pointer'>Home</p>
+          <Link href="https://klas2.vercel.app/"> <p className='hover:text-blue-700 hover:cursor-pointer'>Home</p></Link>
              <Link href="./pricing"><p className='hover:text-blue-700 hover:cursor-pointer'>Pricing</p></Link>
              <Link href="./companypage"><p className='hover:text-blue-700 hover:cursor-pointer'>Company</p></Link> 
              <p className='hover:text-blue-700 hover:cursor-pointer'>Case Studies</p>
