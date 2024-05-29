@@ -1,6 +1,6 @@
 'use client'
 import React from 'react'
-import './page.css'
+import './Case.css'
 import { useState } from 'react'
 import Image from 'next/image'
 import ai from './Images/AIschool.svg'
@@ -14,7 +14,7 @@ import holding3 from './Images/blog3.webp'
 import design from './Images/Designpal.svg'
 import dev from './Images/Devcareer.svg'
 
-const page = () => {
+const CasesTudy = () => {
 
   return (
     <div className=''>
@@ -257,4 +257,4 @@ const page = () => {
   )
 }
 
-export default page
+export default CasesTudy
