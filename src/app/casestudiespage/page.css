@@ -1,0 +1,139 @@
+.navbar
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0.5px 0.5px 5px black;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px;
+    position: absolute;
+    background-color: white;
+
+}
+
+button
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.top
+{
+    padding: 10px 10%;
+    width: 100%;
+
+}
+
+h1
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+p
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+body
+{
+    background-color: rgb(235, 235, 235);
+
+}
+
+p
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.img
+{
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0.5px 0.5px 4px black;
+    cursor: pointer;
+    padding: 20px 20px;
+    background-color: white;
+    height: 143px;
+    width: 175px;
+    transition: 0.9s;
+
+}
+
+.img:hover
+{
+    transform: scale(0.92);
+    transition: all 0.9s ease;
+
+}
+
+.img2
+{
+    border-radius:  20px 20px 0 0;
+    border: none;
+    width: 390px;
+    height: 160px;
+    
+}
+
+.cover
+{
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 140px;
+    background-color: black;
+    border: none;
+    border-radius: 10px;
+
+}
+
+#one
+{
+    border-radius: 0 0 20px 20px;
+    background-color: white;
+    width: 390px;
+    height: 310px;
+
+}
+
+.ebay
+{
+    transition: 0.8s;
+    border: 1px solid transparent;
+    cursor: pointer;
+    border-radius: 20px;
+    
+}
+
+.ebay:hover
+{
+    transition: all 0.8s ease;
+    border: 1px solid black;
+
+}
+
+p
+{
+    cursor: pointer;
+    
+}
+
+.click
+{
+    color: orange;
+    border-bottom: 2px solid orange;
+    padding-bottom: 10px;
+    cursor: pointer;
+
+}
