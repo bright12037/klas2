@@ -2,40 +2,50 @@
 import React from 'react'
 import Image from 'next/image';
 import logo from './DashboardCompo/dashimages/klas-logo.svg'
-import { FaTwitter } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
 import { FaSquareInstagram } from "react-icons/fa6";
 import { LuCopyright } from "react-icons/lu";
+import { RiInstagramFill } from "react-icons/ri";
+import { FaTwitter } from "react-icons/fa";
+import { SiLinkedin } from "react-icons/si";
+import { FaRegCopyright } from "react-icons/fa";
+import Link from 'next/link'
 
-const Footer = () => { 
+
+const Footer = () => {
   return (
-    <div className='bg-blue-700'>
-      <div className='flex p-10  items-center pb-0'>
-        <div className=' cursor-pointer flex py-2 items-center'>
-        <Image src={logo} alt='c' width={50}/>
-        <h2 className='text-white text-xl font-extrabold cursor-pointer'>Klas</h2>
-        </div>
-        <div className='flex ml-auto py-4 gap-10 items-center'>
-        <p className='text-white cursor-pointer'><FaSquareInstagram /></p>
-        <p className='text-white cursor-pointer'><FaTwitter /></p>
-        <p className='text-white cursor-pointer'><FaLinkedin /></p>
-        </div>
-      </div>
+    <>
+      {/*<footer />*/}
 
-      <div className='flex py-10 gap-8 justify-center  cursor-pointer'>
-        <p className='hover:text-slate-400'>Home</p>
-        <p className='hover:text-slate-400'>Pricing</p>
-        <p className='hover:text-slate-400'>Company</p>
-        <p className='hover:text-slate-400'>Case studies</p>
-        <p className='hover:text-slate-400'>Products</p>
-        <p className='hover:text-slate-400'>Terms Of Use</p>
-        <p className='hover:text-slate-400'>Privacy Policy</p>
-      </div>
+      <div className='bg-blue-700 mt-20'>
+        <div className='flex pt-10'>
+          <div className='ml-24'>
+            <h2 className='text-2xl font-semibold text-white'>Klas</h2>
+          </div>
 
-      <div className='  items-center'> 
-        <p className=' flex gap-1 items-center justify-center text-slate-400 '><LuCopyright /> Klas Global, Inc.</p>
+          <div className='flex gap-8 items-center align-center ml-auto mr-28'>
+            < RiInstagramFill className='text-2xl text-white' />
+            < FaTwitter className='text-2xl text-white' />
+            < SiLinkedin className='text-xl text-white' />
+          </div>
+        </div>
+
+        <div className='flex gap-5 text-center justify-center align-center pt-20'>
+          <p className='text-white text-sm hover:text-gray-300 hover:cursor-pointer'>Home</p>
+          <Link href="./pricing"> <p className='text-white text-sm hover:text-gray-300 hover:cursor-pointer'>Pricing</p></Link>
+          <p className='text-white text-sm hover:text-gray-300 hover:cursor-pointer'>Company</p>
+          <p className='text-white text-sm hover:text-gray-300 hover:cursor-pointer'>Case Studies</p>
+          <p className='text-white text-sm hover:text-gray-300 hover:cursor-pointer'>Products</p>
+          <p className='text-white text-sm hover:text-gray-300 hover:cursor-pointer'>Terms of Use</p>
+          <p className='text-white text-sm hover:text-gray-300 hover:cursor-pointer'>Privacy Policy</p>
+        </div>
+
+        <div className='flex gap-1 text-center justify-center align-center pt-10 pb-10'>
+          <p className='text-gray-300 text-xs pt-1'><FaRegCopyright /></p>
+          <p className='text-sm text-gray-300 '> Klas Global, Inc.</p>
+        </div>
       </div>
-    </div>
+    </>
   )
 }
 

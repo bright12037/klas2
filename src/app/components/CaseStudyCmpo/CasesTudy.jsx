@@ -13,58 +13,19 @@ import img3 from './Images/dev-careerimg1.svg'
 import holding3 from './Images/blog3.webp'
 import design from './Images/Designpal.svg'
 import dev from './Images/Devcareer.svg'
+import Link from 'next/link'
+
+import { RiInstagramFill } from "react-icons/ri";
+import { FaTwitter } from "react-icons/fa";
+import { SiLinkedin } from "react-icons/si";
+import { FaRegCopyright } from "react-icons/fa";
+
+
 
 const CasesTudy = () => {
 
   return (
     <div className=''>
-
-        <div className='top'>
-      <div className='navbar'>
-        <a href="dashboardpage">
-          <div>
-            <Image src={logo} height={50} width={100} alt='' />
-          </div>
-        </a>
-
-        <div className='flex ml-60 align-center gap-5'>
-          <a href="HomeComp">
-          <Link href="https://klas2.vercel.app/"><p>Home</p></Link>
-          </a>
-
-          <a href="pricingpage">
-            <p>Pricing</p>
-          </a>
-
-          <a href="comapanypage">
-            <p>Companies</p>
-          </a>
-
-          <a href="casestudiespage">
-            <p>Case Studies</p>
-          </a>
-
-          <a href="blogpage">
-            <p>Blog</p>
-          </a>
-        </div>
-
-        <div className='display-flex ml-40 gap-3 align-center'>
-
-          <a href="signinpage">
-            <button className='mr-7'>Login</button>
-
-          </a>
-
-          <a href="signuppage">
-            <button className='bg-blue-600 text-white mr-3 p-3 rounded-sm cursor-pointer'>Sign up free</button>
-          </a>
-
-        </div>
-
-      </div>
-      
-        </div>
 
         <div className='mt-40 py-5'>
             <div>
@@ -251,8 +212,7 @@ const CasesTudy = () => {
 
           </div>
           
-        </div>       
-
+        </div>    
     </div>
   )
 }
