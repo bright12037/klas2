@@ -29,7 +29,7 @@ const CasesTudy = () => {
 
         <div className='flex ml-60 align-center gap-5'>
           <a href="HomeComp">
-            <p>Home</p>
+          <Link href="https://klas2.vercel.app/"><p>Home</p></Link>
           </a>
 
           <a href="pricingpage">
