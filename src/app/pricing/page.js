@@ -17,7 +17,7 @@ import { FaRegCopyright } from "react-icons/fa";
 const page = () => {
   return (
     <div>
-        <div class="one1">
+        <div className="one1">
 
             <div className="one">
                 <h1 className='text-white text-5xl font-monospace pb-24 font-bold'>Set up your virtual academy today</h1>
