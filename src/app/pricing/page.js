@@ -6,6 +6,7 @@ import { useState } from 'react'
 import crown from './Images/crown.svg'
 import Link from 'next/link'
 import logo from '../components/DashboardCompo/dashimages/klas-logo.svg'
+import Pricelayout from './layout'
 
 import { FaAngleDown } from "react-icons/fa6";
 import { FaAngleUp } from 'react-icons/fa'
