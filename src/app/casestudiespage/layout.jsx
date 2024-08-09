@@ -2,14 +2,14 @@ import React from 'react'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 
-const Cas = ({children}) => {
+const Caselayout = ({ children }) => {
   return (
     <div>
-        <Navbar/>
+      <Navbar />
       {children}
-      <Footer/>
+      <Footer />
     </div>
   )
 }
 
-export default Pricelayout
+export default Caselayout
